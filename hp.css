@@ -1,0 +1,86 @@
+.main {
+  color: white;
+  animation-name: beginning;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+.main > h1 {
+  padding-top: 20px;
+}
+.main > h2 {
+  padding-top: 30px;
+}
+.main img[alt="f1"] {
+  width: 5%;
+  height: 10%;
+  position: absolute;
+  left: 60%;
+}
+.main img[alt="f2"] {
+  width: 5%;
+  height: 10%;
+  position: absolute;
+  left: 35%;
+}
+.main img[alt="dr"] {
+  position: absolute;
+  width: 48%;
+  height: 65%;
+  left: 27%;
+}
+.main img[alt="cw1"] {
+  position: absolute;
+  width: 25%;
+  height: 66%;
+}
+.main img[alt="cw2"] {
+  position: absolute;
+  width: 25%;
+  height: 66%;
+  left: 75%;
+}
+.pets {
+  color: white;
+  padding-top: 38%;
+  margin-left: 15%;
+}
+.pets img {
+  width: 28%;
+}
+.me {
+  position: relative;
+}
+.me h2 {
+  color: white;
+}
+.me img[alt="mee"] {
+  width: 35%;
+  height: 750px;
+  padding-left: 33%;
+}
+.me img[alt="mem1"] {
+  width: 25%;
+  height: 50%;
+  position: absolute;
+  left: 3%;
+  top: 25%;
+}
+.me img[alt="mem2"] {
+  width: 25%;
+  height: 50%;
+  position: absolute;
+  right: 3%;
+  top: 25%;
+}
+body {
+  background-color: brown;
+  display: grid;
+}
+@keyframes beginning {
+  from {
+    visibility: hidden;
+  }
+  to {
+    visibility: visible;
+  }
+}
